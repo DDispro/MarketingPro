@@ -80,7 +80,7 @@
 
 
 ```
-安装 DDispro 的 MarketingPro
+安装 DDispro 的 MarketingPro skill
 ```
 
 ## 🎮 指令系统全览 (Commands)
