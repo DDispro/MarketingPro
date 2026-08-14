@@ -48,7 +48,7 @@
 
 ## ⚡ 一句话安装 (Quick Install)
 
-在支持加载外部 Skill 的 AI 工具/客户端（如 **WorkBuddy、豆包、Kimi、Coze、ChatGPT** 等）中，发送以下任一指令即可完成挂载：
+在支持加载外部 Skill 的 AI 工具/客户端（如 **WorkBuddy、豆包、Kimi、Coze、ChatGPT** 等）中，发送以下指令即可完成挂载：
 
 
 ```
