@@ -83,15 +83,25 @@
 **项目工程架构**
 
 DDSKILL/
+
 ├── README.md （项目全景说明书与一句话安装引导）
+
 ├── .gitignore （忽略本地知识库）
+
 └── skills/
+
     └── MarketingPro/ （SKILL主体）
+    
         ├── manifest.json （Skill 清单规范与指令智能映射）
+        
         ├── README.md （SKILL详细说明）
+        
         ├── knowledge/ （核心第一性原理理论库：包含理论、总图与分层模块）
+        
         ├── prompts/ （智能体分层提示词中枢：包含入口路由、生图引擎与分层提示词）
+        
         └── templates/ （独立可视化交付物模板：包含诊断报告与全案书模板）
+        
 
 **开源协议与共建**
 
