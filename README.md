@@ -50,7 +50,7 @@
 
 在支持加载外部 Skill 的 AI 工具/客户端（如 **WorkBuddy、豆包、Kimi、Coze、ChatGPT** 等）中，发送以下任一指令即可完成挂载：
 
-#### 方式 A：无链接极简安装（推荐在具备检索能力的 Agent 中使用）
+
 ```
 安装 DDispro 的 MarketingPro
 ```
