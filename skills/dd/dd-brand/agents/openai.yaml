@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-brand"
+  short_description: "品牌=承诺+记忆体，0成本复购路径，母子品牌架构"
+  default_prompt: "使用 $dd-brand，基于品牌=复购理论处理品牌相关需求。"

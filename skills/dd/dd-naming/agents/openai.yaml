@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-naming"
+  short_description: "命名即指代方式，极低传播成本与品类强相关命名策略"
+  default_prompt: "使用 $dd-naming，基于品类强相关命名理论处理命名设计需求。"

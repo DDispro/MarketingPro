@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-promotion"
+  short_description: "推广战役驱动方式，必要性/即时性/冲动性构建"
+  default_prompt: "使用 $dd-promotion，基于增长方式驱动的推广理论处理推广相关需求。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-plan"
+  short_description: "品牌营销全案，顶层战略+中层4P+浅层物料融会贯通"
+  default_prompt: "使用 $dd-plan，基于全案方法论输出完整品牌营销方案。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd"
+  short_description: "基于第一性原理的品牌营销方法论，Deep Research + 战略输出，覆盖品牌诊断、4P策略、超级符号、包装策划与全案"
+  default_prompt: "使用 $dd，基于第一性原理品牌营销方法论处理当前需求，先执行 Deep Research 再输出战略与落地方案。"

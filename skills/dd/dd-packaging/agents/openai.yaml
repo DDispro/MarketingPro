@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-packaging"
+  short_description: "包装3必要法则，品类强相关文化母体与角色化设计"
+  default_prompt: "使用 $dd-packaging，基于包装策划理论处理包装设计方案。"

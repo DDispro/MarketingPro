@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-csr"
+  short_description: "企业社会责任=零负担+促增长+可持续，直接反哺业务"
+  default_prompt: "使用 $dd-csr，基于正确CSR三大特征处理CSR方案设计需求。"

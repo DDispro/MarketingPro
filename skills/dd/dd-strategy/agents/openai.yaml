@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-strategy"
+  short_description: "企业是社会器官，战略即选战场，产品是战略唯一表达"
+  default_prompt: "使用 $dd-strategy，基于社会器官论和飞行器模型处理战略相关需求。"

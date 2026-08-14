@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-growth"
+  short_description: "三大增长驱动分型（产品/推广/渠道），4P协同审查"
+  default_prompt: "使用 $dd-growth，基于增长方式判定和4P协同理论处理增长相关需求。"

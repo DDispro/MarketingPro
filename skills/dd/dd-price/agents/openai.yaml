@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-price"
+  short_description: "价格是利润分配机制，价格曲线与三大增长类型协同"
+  default_prompt: "使用 $dd-price，基于战略定价理论处理定价相关需求。"

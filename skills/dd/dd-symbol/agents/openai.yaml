@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-symbol"
+  short_description: "超级符号=文化母体+私有化角色化改造，AI生图输出"
+  default_prompt: "使用 $dd-symbol，基于超级符号工作法处理品牌符号设计需求。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-positioning"
+  short_description: "定位的本质是降低内外交易成本，明确不做什么"
+  default_prompt: "使用 $dd-positioning，基于三层定位体系处理定位相关需求。"

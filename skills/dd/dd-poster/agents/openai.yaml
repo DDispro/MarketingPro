@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-poster"
+  short_description: "KV海报=文化母体视觉统治，终端陈列即体验"
+  default_prompt: "使用 $dd-poster，基于视觉母体统治理论处理KV海报设计需求。"

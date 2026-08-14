@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-slogan"
+  short_description: "口号=话语母体私有化，卖点金字塔6层与3秒购买理由"
+  default_prompt: "使用 $dd-slogan，基于话语母体私有化理论处理口号提炼需求。"

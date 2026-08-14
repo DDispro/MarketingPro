@@ -1,0 +1,4 @@
+interface:
+  display_name: "dd-place"
+  short_description: "渠道=场景+人，排面争夺与渠道赋能逻辑"
+  default_prompt: "使用 $dd-place，基于渠道建设理论处理渠道策略相关需求。"
