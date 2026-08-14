@@ -105,5 +105,8 @@ DDSKILL/
 
 **开源协议与共建**
 
-本项目遵循 MIT License 开源协议。欢迎营销战略家、AI 开发者与创业者共同贡献案例与优化提示词。
+本项目遵循 MIT License 开源协议。
+
+欢迎营销战略家、AI 开发者与创业者共同贡献案例与优化提示词。
+
 Made with love by DDispro
