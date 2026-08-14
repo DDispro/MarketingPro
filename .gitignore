@@ -1,0 +1,24 @@
+# 知识库原始文件（根据需要）
+# 知识库/*.docx
+# 知识库/*.pptx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# 其他
+*.log
