@@ -1,0 +1,108 @@
+name: MarketingPro
+version: 2.1.0
+display_name: MarketingPro 品牌营销第一性原理方法论
+description: 基于第一性原理的商业与营销方法论，融合全局Deep Research深度调研能力。涵盖：Step0行业调研 → Step1方法论漏斗 → Step2战略输出。品牌唯一目的=0成本复购=取消销售。
+author: ddispro
+
+core_principles:
+  - 企业是社会器官，使命+能力+需求三位一体
+  - 品牌=承诺+记忆体，方便奖惩的心智坐标
+  - 品牌是结果不是方法，首先必须卖得多才能成为品牌
+  - 4P整体协同服务于增长方式（产品驱动/推广驱动/渠道驱动）
+  - 超级符号=文化母体+私有化改造，零教育成本资产储蓄
+  - Deep Research是全局前置动作：事实原料→方法论漏斗→战略输出
+
+execution_protocol:
+  description: 三步执行协议：Deep Research → 方法论漏斗 → 战略输出
+  step0:
+    name: Deep Research Protocol
+    trigger: 全局前置
+    description: 无论用户调用主入口还是子模块，第一动作必须是Deep Research调研行业/竞品/品类现状
+    outputs:
+      - 行业格局速览
+      - 竞品物料现状
+      - 行业盲区洞察
+      - 文化母体候选
+  step1:
+    name: Methodology Filtering
+    description: 将现实事实原料输入方法论漏斗：增长驱动判定、4P协同审查、文化母体扫描、包装3必要
+  step2:
+    name: Structured Output
+    description: 输出兼具现实穿透力与理论闭环的成果物：诊断报告/策略文案/生图Prompt/HTML全案
+
+main_command:
+  trigger: /dd
+  description: 总入口，自动执行Deep Research→方法论漏斗→输出HTML报告
+
+sub_commands:
+  research:
+    dd-research:
+      trigger: /dd-research
+      description: 独立行业与竞品深度调研，输出市场调研报告
+  deep:
+    01_brand:
+      trigger: /dd-brand
+      description: 品牌模块：承诺+记忆体、品牌三阶段、品牌是结果、母子品牌
+    02_strategy:
+      trigger: /dd-strategy
+      description: 战略模块：社会器官论、产品是战略唯一表达、选战场、创新5方式
+    03_positioning:
+      trigger: /dd-positioning
+      description: 定位模块：三层定位、降低交易成本、明确不做什么
+  middle:
+    04_growth:
+      trigger: /dd-growth
+      description: 增长方式：前序体验理论、3大增长驱动判定、4P整体协同
+    05_product:
+      trigger: /dd-product
+      description: 产品(4P)：机翼模型、产品角色（优越/目的/背书）、产品组合规划
+    06_price:
+      trigger: /dd-price
+      description: 定价(4P)：利润分配机制（后向研发/顾客/渠道）、价格曲线
+    07_place:
+      trigger: /dd-place
+      description: 渠道(4P)：场景+人、渠道是第一波顾客（仅渠道驱动型生效）
+    08_promotion:
+      trigger: /dd-promotion
+      description: 推广(4P)：协同服务重心（产品优越感/即时冲动/渠道赋能）
+  surface:
+    09_naming:
+      trigger: /dd-naming
+      description: 命名：文字母体私有化、极低传播成本、购买坐标统治力
+    10_symbol:
+      trigger: /dd-symbol
+      description: 符号：视觉母体私有化、超级符号三原则、AI生图提示词
+    11_slogan:
+      trigger: /dd-slogan
+      description: 口号：话语母体私有化、卖点金字塔6层、3秒原则
+    12_packaging:
+      trigger: /dd-packaging
+      description: 包装：包装3必要、文化母体货架统治、AI生图提示词
+    13_poster:
+      trigger: /dd-poster
+      description: KV与海报：母体视觉统治、终端陈列即体验、AI生图提示词
+    14_csr:
+      trigger: /dd-csr
+      description: CSR：零负担/促增长/可持续、企业溢出产能利用
+    15_plan:
+      trigger: /dd-plan
+      description: 全案：顶层+中层+浅层融会贯通、五大章节、配套AI生图套件
+
+image_generation:
+  enabled: true
+  engine: prompts/image_engine.md
+  supports:
+    - midjourney
+    - dalle
+    - flux
+    - kimi
+    - 通义万相
+  output_format: 嵌入HTML报告或输出中英双语Prompt
+
+html_templates:
+  diagnosis: templates/diagnosis_template.html
+  plan: templates/plan_template.html
+
+knowledge_base: knowledge
+prompts: prompts
+templates: templates
